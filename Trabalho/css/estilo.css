@@ -1,0 +1,21 @@
+ body{
+            background-color: lightblue;
+            justify-content: center;
+            text-align: center;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            color: darkgreen;
+        }
+
+        h2{
+            color: green;
+        }
+
+        .legenda{
+            font-size: 12px;
+            text-align: left;
+            color: darkslategrey;
+        }
