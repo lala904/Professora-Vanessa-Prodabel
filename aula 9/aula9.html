@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+<style>
+    body{
+    background-color: aliceblue; 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ /*
+h1{
+    background-color: lightslategray;
+    color: lightblue;
+    justify-self: center;
+}
+*/
+
+.azul{
+    color: blue;
+}
+
+.verde{
+    color: green;
+}
+
+.vermelho{
+    color: red;
+}
+    
+.azulmarinho{
+    color: aqua;
+        }
+
+.rosa{
+    color: palevioletred;
+}
+
+.marrom{
+    color: brown;
+}
+
+#textoprincipal{
+    background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  pink;
+    border: solid 5px; 
+    border-color: palevioletred;
+    padding: 25px;
+    margin: 20px;
+}
+
+img{
+    border-radius: 50px;
+}
+
+nav{
+    background-color: cadetblue;
+    width: 100%;
+    position: absolute;
+}
+
+nav img{
+    display: block;
+    float: left;
+    padding: 14px 16px;
+}
+
+nav a {
+    color: black;
+    float: right;
+    padding: 28px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+nav a:hover{
+    background-color: pink;
+    color: deeppink;
+}
+
+main{
+    padding: 100px;
+}
+
+footer{
+    text-align: center; 
+    background-color: cadetblue;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+footer p{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;/* o rem é usado para programa mais responsível*/
+}
+
+#link{
+    color: white;
+}
+
+.componentes{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-integrantes{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.integrante{
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+#subtexto{
+    background-color: pink;
+    color: crimson;
+    text-align: center;
+}
+
+</style>
+<script src="js/script.js" defer></script>
+</head>
+<body>
+   <header>
+        <nav>
+            <img src="Imagens/img2.jpg" alt="Lagoa e Igrejinha" height="50px">
+            <a href="https://www.instagram.com/">Instagram</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="textoprincipal">Turismo na Pampulha 🌆</h1>
+
+        <img src="Imagens/img1.jpg" alt="Igrejinha da Pampulha" height="200px" width="400px"> 
+
+        <p class="azul">Texto Azul</p>
+        <p class="verde">Texto Verde</p>
+        <p class="vermelho">Texto Vermelho</p>
+
+        <p class="azulmarinho">Lista da Pampulha</p>
+        <ul>
+            <li>Igrejinha da Pampulha</li>
+            <li>Mineirão</li>
+            <li>Parque Guanabara</li>
+            <li>Casa de Baile</li>
+            <li>Mineirinho</li>
+            <li>Museu de Arte da Pampulha</li>
+            <li>Parque Ecologico</li>
+            <li>Zoologico</li>
+            <li>Lagoa da Pampulha</li>
+        </ul>
+        <h2 class="rosa">Animais na Pampulha</h2>
+        <ol>
+            <li>Capivara</li>
+            <li>Jacaré</li>
+            <li>Peixes</li>
+        </ol>
+        <h3 class="marrom">História da Pampulha</h3>
+
+        <h4 id="subtexto">Equipe de Desenvolvimento</h4>
+        <div class="componentes">
+            <div class="imagem-integrantes">
+                <img class="integrante" src="Imagens/img3.jpeg" alt="imagem 1" height="150px" width="150px">
+                <p>Lara</p>
+            </div>
+            <div class="imagem-integrantes">
+                <img class="integrante" src="Imagens/img4.jpg" alt="imagem 2" height="150px" width="150px">
+                <p>Lara</p>
+            </div>
+            <div class="imagem-integrantes">
+                <img class="integrante" src="Imagens/img5.jpg" alt="imagem 3" height="150px" width="150px">
+                <p>Lara</p>
+            </div>
+            <div class="imagem-integrantes">
+                <img class="integrante" src="Imagens/img6.jpg" alt="imagem 4" height="150px" width="150px">
+                <p>Lara</p>
+            </div>
+        </div>
+    </main>      
+    <footer>
+        <p>&copy; 2025 Pontos Turisticos da Pampulha. Todos os direitos reservados</p>
+        <p>(31) 9888-5555</p>
+        <a id="link" href="https://www.instagram.com/">Instagram</a>
+    </footer> 
+</html>
+</body>
